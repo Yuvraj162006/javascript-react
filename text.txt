@@ -1,0 +1,3 @@
+for run the browser again use the commands 
+1. cd latest
+2. npm run dev
