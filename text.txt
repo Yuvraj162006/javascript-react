@@ -1,3 +1,18 @@
+for creating app
+
+npm create vite@latest demoapp
+
+
+
 for run the browser again use the commands 
 1. cd latest
 2. npm run dev
+
+
+git pe push krne ke liye
+
+1. git status
+2. git add .
+3. git commit -m "New project"
+4. git status
+5. git push -u origin main

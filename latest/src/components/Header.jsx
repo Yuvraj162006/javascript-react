@@ -1,9 +1,18 @@
 import "./Header.css";
-export default function Header(props){
+export default function Header({title,color,year}){
     return(
-        <div>
-            <h1>{props.title}</h1>
+        <header>
+        {card}
+
+            <h1>{title} {color} {year}</h1>
+            <nav>
+            <a href="#">Home </a>
+            <a href="#">About </a>
+            <a href="#">Contact</a>
+            </nav>
+
+        </header>
             
-        </div>
+        
     )
 }
